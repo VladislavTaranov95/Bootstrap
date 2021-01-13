@@ -93,7 +93,7 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .bonus .bonus_btn {
     display: block;
     margin: 73px auto;
     width: 313px;
@@ -138,7 +138,7 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header, .finish .finish_header, .dateinfo .dateinfo_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -200,7 +200,7 @@ h2.title {
     padding: 102px 0 107px 0;
 }
 
-.optimization .optimization_header {
+.optimization .optimization_header, .dateinfo .dateinfo_datetext {
     margin-left: 391px;
     color: #299cbd;
     font-family: "Roboto - Black";
@@ -264,5 +264,56 @@ h2.title {
     font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
+    text-align: center;
+}
+
+.bonus {
+    min-height: 628px;
+    background-color: #efefef;
+    padding-top: 86px;
+}
+
+.bonus .bonus_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bonus .bonus_text {
+    margin-top: 42px;
+    width: 1131px;
+}
+
+.dateinfo {
+    min-height: 515px;
+    padding-top: 89px;
+}
+
+.dateinfo .dateinfo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.dateinfo .dateinfo_header {
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dateinfo .dateinfo_datetext {
+    margin: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.dateinfo .dateinfo_text {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
     text-align: center;
 }
