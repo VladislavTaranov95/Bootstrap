@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .promo {
     height: 800px;
     background: url('../img/section_1/bground.png') center center/cover no-repeat; /* cover - растянуть картинку по всей площади экрана */
@@ -23,18 +27,11 @@
 
 .logo .logo_text {
     color: #ffffff;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
-    /* Text style for "WordPress" */
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
     margin-top: 14px;
 }
 
@@ -44,52 +41,33 @@ h1 {
 
 .title {
     color: #f9bf3b;
-    font-family: "Roboto - Black";
     font-size: 41px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     text-align: center;
     text-transform: uppercase;
-    font-style: normal;
-    letter-spacing: normal;
-}
-
-h2.title {
-    margin-top: 30px;
+    font-weight: 900;
 }
 
 .simple .title_big {
     color: #ffffff;
-    font-family: "Roboto - Black";
     font-size: 80px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
-    /* Text style for "это просто" */
-    font-style: normal;
-    letter-spacing: normal;
-    margin-top: 21px;
 }
 
 .promo .promo_text {
     padding: 0 13px;
     margin-top: 23px;
     color: #ffffff;
-    font-family: Roboto;
     font-size: 21px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
+    font-weight: 100;
     line-height: 28px;
     text-align: center;
 }
 
 .promo .promo_text span {
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -163,11 +141,8 @@ h2.title {
 
 .waiting .waiting_subheader {
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     text-align: center;
     margin-top: 17px;
 }
@@ -187,10 +162,9 @@ h2.title {
     width: 100%;
 }
 
-.waiting .waiting_wrapper .waiting_item .waiting_text {
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
 }
@@ -203,9 +177,8 @@ h2.title {
 .optimization .optimization_header, .dateinfo .dateinfo_datetext {
     margin-left: 391px;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 29px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -213,14 +186,12 @@ h2.title {
     margin-top: 25px;
     margin-left: 391px;
     color: #4a4a4a;
-    font-family: "Roboto Light";
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
 }
 
 .optimization .optimization_text span {
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
